@@ -1,0 +1,38 @@
+
+.top-bar i:active {
+    color: var(--yellow);
+    transition: all 0.2s ease-in-out;
+
+}
+.musician-tap img:hover {
+    box-shadow: none;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+  }
+.playlist__content:hover {
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+  }
+ 
+  .bottom-bar__column span:active {
+    color: var(--yellow);
+    transition: all 0.2s ease-in-out;
+  }
+  .music-btns__icon:nth-child(3):active {
+    background-color: var(--yellow);
+    transition: all 0.1s ease-in-out;
+
+  }
+  .music-btns__icon:nth-child(2):active,
+  .music-btns__icon:nth-child(4):active {
+    color: var(--yellow);
+    transition: all 0.1s ease-in-out;
+  }
+.music-btns__icon:first-child:active,
+.music-btns__icon:last-child:active {
+  opacity: .1;
+    transition: all 0.1s ease-in-out;
+
+}
