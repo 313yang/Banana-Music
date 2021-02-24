@@ -1,0 +1,27 @@
+.bottom-bar {
+    position: sticky;
+    width: 100%;
+    bottom: 55px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #1a1a1ad7;
+    color: white
+  }
+  .bottom-bar h5 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .bottom-bar__text,
+  .bottom-bar__column span {
+    margin-left: 20px;
+  }
+  .bottom-bar__column span {
+    cursor: pointer;
+  }
+  .bottom-bar__column span:active {
+    color: var(--yellow);
+    transition: all 0.2s ease-in-out;
+  }

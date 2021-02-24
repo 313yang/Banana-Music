@@ -1,0 +1,49 @@
+.musician-tap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .musician-tap img{
+    border-radius: 50%;
+    box-shadow: 1px 2px 20px #ffd10454;
+    margin-bottom: 25px;
+  }
+
+
+  .btns {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0;
+  }
+  .btns span i {
+    margin-right: 10px;
+  }
+  
+  .btns span {
+    font-size: 14px;
+    padding: 15px 20px;
+    background-color: var(--main-black);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #c7cdcf5d;
+    cursor: pointer;
+  }
+  
+  .btns span:last-child {
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 40px;
+    color: var(--main-black);
+  }
+   .btns span:active {
+    background-color: var(--yellow);
+    color: white;
+    box-shadow: none;
+    transition: all 0.2s ease-in-out;
+    
+  }
+  .musician-tap img:hover {
+    box-shadow: none;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+  }

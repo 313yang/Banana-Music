@@ -1,0 +1,10 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    cursor: pointer;
+  }
+  .top-bar i:active {
+    color: var(--yellow);
+    transition: all 0.2s ease-in-out;
+}

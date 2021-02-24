@@ -1,0 +1,19 @@
+.nav {
+    position: sticky;
+    bottom: 0px;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 100%;
+    padding: 20px 60px;
+    background-color: var(--main-black);
+    color: white;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__btn i:active {
+    color: var(--yellow);
+    transition: all 0.2s ease-in-out;
+  }
