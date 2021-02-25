@@ -40,8 +40,6 @@
   padding: 5px 0;
   width: 320px;
   text-align: left;
-}
-.wrapper #toggle-search {
-  margin-right: 10px;
+  margin-left: 10px;
 
 }
