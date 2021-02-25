@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
 }
-.nav__btn i:active {
+.nav__btn i:hover {
     color: var(--yellow);
     transition: all 0.2s ease-in-out;
   }

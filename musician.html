@@ -11,7 +11,7 @@
   <body>
     <div class="screen">
       <div class="top-bar">
-        <span><i class="fas fa-arrow-left"></i></span>
+        <a href="home.html"><span><i class="fas fa-arrow-left"></i></span></a>
         <span><i class="fas fa-ellipsis-v"></i></span>
       </div>
       <main class="main-screen">
@@ -37,7 +37,7 @@
               <span><i class="fas fa-ellipsis-v"></i></span>
             </div>
           </li>
-          <a href="#">
+          <a href="music-play.html">
           <li class="playlist__content">
               <div class="playlist__column">
                 <i class="fas fa-play-circle fa-2x"></i>
@@ -99,7 +99,7 @@
         </div>
         <div class="bottom-bar__column">
           <span><i class="fas fa-step-backward"></i></span>
-          <span><i class="fas fa-pause fa-lg"></i></span>
+          <span><i onclick="myFunction(this)" class="fas fa-pause"></i></span>
           <span><i class="fas fa-step-forward"></i></span>
         </div>
       </div>
@@ -122,5 +122,6 @@
       
     </div>
     <scrip src="https://kit.fontawesome.com/2a7d6ecfa5.js" crossorigin="anonymous"></scrip>
+    <script src="click.js"></script>
   </body>
 </html>
