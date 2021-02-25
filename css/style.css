@@ -8,6 +8,7 @@
 
 /* screens */
 @import "screens/home.css";
+@import "screens/browse.css";
 @import "screens/musician.css";
 @import "screens/music-play.css";
 
@@ -65,11 +66,7 @@
     font-weight: 800;
     margin-bottom: 10px;
   }
-  h6 {
-    font-size: 14px;
-    font-weight: 500;
-    opacity: .7;
-  }
+ 
    a{
     color: inherit;
     text-decoration: none;
@@ -79,4 +76,7 @@
   } 
   
   ::-webkit-scrollbar { display: none; }
+  input {
+    outline: none;
+  }
 

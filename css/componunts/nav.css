@@ -1,6 +1,6 @@
 .nav {
     position: sticky;
-    bottom: 0px;
+    bottom: -1px;
     border-radius: 20px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;

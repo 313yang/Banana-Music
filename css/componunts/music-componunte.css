@@ -1,3 +1,11 @@
+.playlist {
+  width: 85%;
+  padding: 5px;
+  border-radius: 10px;
+}
+.bs {
+  box-shadow: var(--box-shadow);
+}
 .playlist__content {
     display: flex;
     align-items: center;
@@ -8,7 +16,7 @@
   a > .playlist__content {
     position: relative;
     background-color: var(--yellow);
-    box-shadow: 1px 2px 10px #c7cdcf5d;
+    box-shadow: var(--box-shadow);
     color: white;
 
   }
@@ -18,9 +26,13 @@
     top: 25px;
     left: 25px;
   }
-  
+  .playlist__musician {
+    font-size: 14px;
+    font-weight: 600;
+    opacity: .7;
+  }
 
-  .playlist__content h5 {
+  .playlist__song {
     font-size: 15px;
     font-weight: 700;
     margin-top: 10px;
@@ -43,8 +55,10 @@
     width: 60px;
     height: 60px;
   }
+ 
   .playlist__content:hover {
-    
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
     cursor: pointer;
 
   }

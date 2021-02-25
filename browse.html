@@ -9,86 +9,97 @@
     <link rel="stylesheet" href="css/style.css">
     </head>
   <body>
-    <div class="screen">
+    <div class="screen browse">
       <div class="top-bar">
-        <span></span>
-        <span><!--<i class="fas fa-user-circle fa-lg"></i>--></span>
+        <h6 id="hide-bar">Browse</h6>
+        <div class="wrapper">
+          <i id="toggle-search" class="fas fa-search"></i>
+          <input style='display:none;' id='searchBar' name='search' type='search' placeholder='Search'>
+        </div>
       </div>
       <main class="main-screen">
-        <div class="today-music">
-            <div class="today-music__column">
-                <h4>Today's Playlist for you</h4>
-            </div>
-            <div class="today-music__column"><i class="far fa-play-circle fa-2x"></i></div>
+        <div class="chart browse-title">
+          <a href="#"><h4>Chart</h4></a>
+          <a href="#"><i class="fas fa-angle-right"></i></a>
         </div>
-        <ul class="today-music__playlist">
-            <li class="playlist__content">
+        <ul class="playlist bs">
+          <li class="playlist__content">
+            <div class="playlist__column">
+              <img src="./img/chart1.JPG"/>
+              <div class="playlist__text">
+                <h6 class="playlist__musician">Olivia Rodrigo</h6>
+                <h5 class="playlist__song">drivers license</h5>
+              </div>
+            </div>
+            <div class="playlist__column">
+              <span><i class="fas fa-ellipsis-v"></i></span>
+            </div>
+          </li>
+          
+          <li class="playlist__content">
               <div class="playlist__column">
-                <img src="./img/elated.jpg"/>
+                <img src="./img/new1.JPG"/>
                 <div class="playlist__text">
-                  <h6 class="playlist__musician">Aminé</h6>
-                  <h6 class="playlist__song">FEEL SOMETHING DIFFERENT</h6>
-                </div>
+                <h6 class="playlist__musician">Ariana Grande</h6>
+                <h5 class="playlist__song">34+35</h5>
               </div>
-              <div class="playlist__column">
-                <span></span>
+            </div>
+            <div class="playlist__column">
+              <span><i class="fas fa-ellipsis-v"></i></span>
+            </div>
+          </li>
+          <li class="playlist__content">
+            <div class="playlist__column">
+              <img src="./img/chart2.JPG"/>
+              <div class="playlist__text">
+                <h6 class="playlist__musician">Lil Tjay, 6lack</h6>
+                <h5 class="playlist__song">Calling My Phone</h5>
               </div>
-            </li>
-            <li class="playlist__content">
-                <div class="playlist__column">
-                  <img src="./img/elated.jpg"/>
-                  <div class="playlist__text">
-                    <h6 class="playlist__musician">Aminé</h6>
-                    <h6 class="playlist__song">FEEL SOMETHING DIFFERENT</h6>
-                  </div>
-                </div>
-                <div class="playlist__column">
-                  <span></span>
-                </div>
-            </li>
+            </div>
+            <div class="playlist__column">
+              <span><i class="fas fa-ellipsis-v"></i></span>
+            </div>
+          </li>
+          <li class="playlist__content">
+            <div class="playlist__column">
+              <img src="./img/chart3.JPG"/>
+              <div class="playlist__text">
+                <h6 class="playlist__musician">The Weeknd</h6>
+                <h5 class="playlist__song">Blinding Lights</h5>
+              </div>
+            </div>
+            <div class="playlist__column">
+              <span><i class="fas fa-ellipsis-v"></i></span>
+            </div>
+          </li>
+          <li class="playlist__content">
+            <div class="playlist__column">
+              <img src="./img/chart4.JPG"/>
+              <div class="playlist__text">
+                <h6 class="playlist__musician">Cardi B</h6>
+                <h5 class="playlist__song">Up</h5>
+              </div>
+            </div>
+            <div class="playlist__column">
+              <span><i class="fas fa-ellipsis-v"></i></span>
+            </div>
+          </li>
+          
         </ul>
-        <div class="new-releases">
-            <h4>Popular new releases</h4>
-            <div class="new-releases__list">
-                <div class="new-releases__content">
-                    <img src="./img/elated.jpg"/>
-                    <h6>Aminé</h6>
-                </div>
-                <div class="new-releases__content">
-                    <img src="./img/elated.jpg"/>
-                    <h6>Aminé</h6>
-                </div>
-                <div class="new-releases__content">
-                    <img src="./img/elated.jpg"/>
-                    <h6>Aminé</h6>
-                </div>
-                <div class="new-releases__content">
-                    <img src="./img/elated.jpg"/>
-                    <h6>Aminé</h6>
-                </div>
-            </div>
+
+        <div class="genre browse-title">
+          <a href="#"><h4>Genre</h4></a>
+          <a href="#"><i class="fas fa-angle-right"></i></a>
         </div>
-        <div class="mood-playlist">
-            <h4>Mood</h4>
-            <h6>Playlists to match your mood.</h6>
-            <div class="mood-playlist__list">
-                <div class="mood-playlist__content">
-                    <img src="./img/elated.jpg"/>
-                    <h6>Aminé</h6>
-                </div>
-                <div class="mood-playlist__content">
-                    <img src="./img/elated.jpg"/>
-                    <h6>Aminé</h6>
-                </div>
-                <div class="mood-playlist__content">
-                    <img src="./img/elated.jpg"/>
-                    <h6>Aminé</h6>
-                </div>
-                <div class="mood-playlist__content">
-                    <img src="./img/elated.jpg"/>
-                    <h6>Aminé</h6>
-                </div>
-            </div>
+        <div class="genre-boxs">
+          <div class="genre__box"><span>POP</span></div>
+          <div class="genre__box"><span>Hip-Hap</span></div>
+          <div class="genre__box"><span>R&B</span></div>
+          <div class="genre__box"><span>Folk&Acoustic</span></div>
+          <div class="genre__box"><span>Rock</span></div>
+          <div class="genre__box"><span>Dance / Electronic</span></div>
+          <div class="genre__box"><span>Jazz</span></div>
+          <div class="genre__box"><span>Latin</span></div>
         </div>
       </main>
       <div class="bottom-bar">
@@ -120,8 +131,9 @@
             </li>
         </ul>
       </nav>
-      
     </div>
     <scrip src="https://kit.fontawesome.com/2a7d6ecfa5.js" crossorigin="anonymous"></scrip>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="searchbar.js"></script>
   </body>
 </html>
