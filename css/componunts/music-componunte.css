@@ -2,6 +2,7 @@
   width: 85%;
   padding: 5px;
   border-radius: 10px;
+  overflow: scroll;
 }
 .bs {
   box-shadow: var(--box-shadow);
@@ -12,13 +13,13 @@
     justify-content: space-between;
     padding: 8px;
     border-radius: 10px;
+    transition: all 0.2s ease-in-out;
   }
   a > .playlist__content {
     position: relative;
     background-color: var(--yellow);
     box-shadow: var(--box-shadow);
     color: white;
-
   }
 
   .playlist__column .fa-play-circle {
@@ -27,7 +28,7 @@
     left: 25px;
   }
   .playlist__musician {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     opacity: .7;
   }
@@ -35,7 +36,7 @@
   .playlist__song {
     font-size: 15px;
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 8px;
   }
   .playlist__content i {
     opacity: .8;
@@ -49,6 +50,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
    }
   .playlist__column img {
     margin-right: 10px;
@@ -58,7 +60,12 @@
  
   .playlist__content:hover {
     transform: scale(1.03);
-    transition: all 0.2s ease-in-out;
     cursor: pointer;
-
   }
+  .playlist__column:last-child :active {
+    color: var(--yellow);
+}
+a > .playlist__content .fa-ellipsis-v:hover {
+  color: var(--main-black);
+  opacity: .8;
+}

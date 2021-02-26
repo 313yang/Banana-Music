@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 /* components */
 @import "componunts/music-componunte.css";
@@ -39,7 +39,7 @@
   .screen {
     top: 0px;
     width: 400px;
-    height: 850px;
+    height: 800px;
     border-radius: 20px;
     position: relative;
     background-color: white;

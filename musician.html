@@ -11,14 +11,14 @@
   <body>
     <div class="screen">
       <div class="top-bar">
-        <a href="home.html"><span><i class="fas fa-arrow-left"></i></span></a>
+        <a href="javascript:history.back();"><span><i class="fas fa-arrow-left"></i></span></a>
         <span><i class="fas fa-ellipsis-v"></i></span>
       </div>
       <main class="main-screen">
         <div class="musician-tap">
           <img src="./img/amine.jpg"/>
           <h2>Aminé</h2>
-          <h6>Rap, Hip-Hap</h6>
+          <h6 class="musician-tap__genre">Rap, Hip-Hap</h6>
         </div>
         <div class="btns">
           <span class="btn__icon"><i class="fas fa-plus"></i>Add playlist</span>
@@ -38,8 +38,8 @@
             </div>
           </li>
           <a href="music-play.html">
-          <li class="playlist__content">
-              <div class="playlist__column">
+          <li class="playlist__content ">
+              <div class="playlist__column selected">
                 <i class="fas fa-play-circle fa-2x"></i>
                 <img src="./img/goodforyou1.jpg"/>
                 <div class="playlist__text">
@@ -47,7 +47,7 @@
                 <h5 class="playlist__song">Caroline</h5>
               </div>
             </div>
-            <div class="playlist__column">
+            <div class="playlist__column selected">
               <span><i class="fas fa-ellipsis-v"></i></span>
             </div>
           </li></a>
@@ -122,6 +122,6 @@
       
     </div>
     <scrip src="https://kit.fontawesome.com/2a7d6ecfa5.js" crossorigin="anonymous"></scrip>
-    <script src="click.js"></script>
+    <script src="js/click.js"></script>
   </body>
 </html>

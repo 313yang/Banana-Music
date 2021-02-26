@@ -2,6 +2,7 @@
     background: linear-gradient(#ffc404 5% , #ffffff 40%) ;
   }
 .today-music {
+    margin-top: 60px;
     display: flex;
     width: 85%;
     justify-content: space-between;
@@ -19,10 +20,10 @@
 
 .today-music__column i {
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 .today-music__column i:hover {
     transform: scale(1.2);
-    transition: all 0.2s ease-in-out;
 }
 .today-music__column i:active {
     transform: scale(1);
@@ -37,7 +38,7 @@
 .today-music__playlist {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .today-music__playlist:hover {
     transform: scale(1.02);
@@ -48,10 +49,14 @@
     font-size: 14px;
     font-weight: 700;
 }
-.today-music__name {
-    margin-top: 10px;
-    opacity: .7;
+.today-music__musician{
+    opacity: .8;
     font-size: 14px;
+    font-weight: 500;
+}
+.today-music__name {
+    margin-top: 5px;
+    font-size: 16px;
   }
 .today-music__playlist__column {
     display: flex;
@@ -117,18 +122,19 @@
     text-overflow:ellipsis; 
     text-align: left;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 5px;
 }
 .musician-name {
     opacity: .6;
 }
 
-.more {
-    opacity: .6;
+.fa-ellipsis-v {
+    opacity: .8;
+    transition: all 0.2s ease;
+
 }
-.more span:active {
+.fa-ellipsis-v:hover {
     color: var(--yellow);
     opacity: 1;
-    transition: all 0.2s ease-in-out;
   }

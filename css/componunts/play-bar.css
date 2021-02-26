@@ -1,7 +1,7 @@
 .bottom-bar {
     position: sticky;
     width: 100%;
-    bottom: 55px;
+    bottom: 56px;
      display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,21 +9,23 @@
     background-color: #1a1a1aea;
     color: white
   }
-  .bottom-bar h5 {
-    margin-top: 10px;
-    font-size: 16px;
+  .bottom-bar__musician {
+    font-size: 14px;
+  }
+  .bottom-bar__song {
+    margin-top: 8px;
+    font-size: 18px;
     font-weight: 700;
   }
   .bottom-bar__text,
   .bottom-bar__column span {
     margin-left: 20px;
+    transition: color .2s ease-in-out;
+    cursor: pointer;
   }
   .bottom-bar__column span:hover {
     color: var(--yellow);
-    transition: color .2s ease-in-out;
-    cursor: pointer;
   }
   .fa-pause {
     font-size: 20px;
   }  
-  

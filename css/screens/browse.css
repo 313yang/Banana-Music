@@ -11,10 +11,13 @@
 .browse-title h4{
     font-size: 20px;
     font-weight: 800;
+    transition: all 0.2s ease;
+}
+.browse-title i {
+    transition: all 0.2s ease;
 }
 .browse-title :active {
     color: var(--yellow);
-    transition: all 0.2s ease-in-out;
 }
 .genre-boxs {
     display: flex;
@@ -36,6 +39,8 @@
     font-weight: 600;
     margin-bottom: 20px;
     cursor: pointer;
+    transition: all .2s ease;
+
 }
 .genre__box:nth-child(2) {
     background-color: #e45931;
@@ -57,4 +62,7 @@
 }
 .genre__box:last-child {
     background-color: #ee37a4;
+}
+.genre__box:hover {
+    transform: scale(1.03);
 }
