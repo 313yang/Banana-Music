@@ -39,28 +39,24 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  box-shadow: 1px 1px 10px #b1b1b141;
+  box-shadow: var(--box-shadow);
 }
 .music-btns__icon:first-child,
 .music-btns__icon:last-child {
-  opacity: .3;
+  color: #b1b1b1;
 }
-
+.music-btns__icon {
+  transition: all 0.1s ease-in-out;
+}
 .music-btns__icon:nth-child(3):active {
     background-color: var(--yellow);
-    transition: all 0.1s ease-in-out;
 
   }
   .music-btns__icon:nth-child(2):active,
-  .music-btns__icon:nth-child(4):active {
+  .music-btns__icon:nth-child(4):active,
+  .music-btns__icon:first-child:active,
+  .music-btns__icon:last-child:active {
     color: var(--yellow);
-    transition: all 0.1s ease-in-out;
-  }
-.music-btns__icon:first-child:active,
-.music-btns__icon:last-child:active {
-  opacity: .1;
-    transition: all 0.1s ease-in-out;
-
 }
 
 input[type=range] {

@@ -3,99 +3,92 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Banana Music</title>
+    <title>Banana Music - Library</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     </head>
   <body>
     <div class="screen">
-      <div class="top-bar">
-        <a href="javascript:history.back();"><span><i class="fas fa-arrow-left"></i></span></a>
-        <span><i class="fas fa-ellipsis-v"></i></span>
+      <div class="top-bar browse-bg">
+        <h6>Library</h6>
+        <a href="user.html"><span><i class="fas fa-user-circle fa-2x"></i></span></a>
       </div>
       <main class="main-screen">
-        <div class="musician-tap">
-          <img src="./img/amine.jpg"/>
-          <h2>Aminé</h2>
-          <h6>Rap, Hip-Hap</h6>
-        </div>
-        <div class="btns">
-          <span class="btn__icon"><i class="fas fa-plus"></i>Add playlist</span>
-          <span class="btn__icon"><i class="fas fa-heart"></i>212,910</span>
-        </div>
-        <ul class="playlist">
-          <li class="playlist__content">
-            <div class="playlist__column">
-              <img src="./img/elated.jpg"/>
-              <div class="playlist__text">
-                <h6 class="playlist__musician">Aminé</h6>
-                <h5 class="playlist__song">FEEL SOMETHING DIFFERENT</h5>
-              </div>
+        <ul class="library">
+          <li class="library-list">
+            <div class="library-list__column">
+              <i class="far fa-heart"></i>
+              <h6>like</h6>
             </div>
-            <div class="playlist__column">
-              <span><i class="fas fa-ellipsis-v"></i></span>
+            <div class="library-list__column">
+            <i class="fas fa-angle-right"></i>
             </div>
           </li>
-          <a href="music-play.html">
-          <li class="playlist__content">
-              <div class="playlist__column">
-                <i class="fas fa-play-circle fa-2x"></i>
-                <img src="./img/goodforyou1.jpg"/>
-                <div class="playlist__text">
-                <h6 class="playlist__musician">Aminé</h6>
-                <h5 class="playlist__song">Caroline</h5>
-              </div>
+          <li class="library-list">
+            <div class="library-list__column">
+              <i class="fas fa-box-open"></i>
+              <h6>downloads</h6>
             </div>
-            <div class="playlist__column">
-              <span><i class="fas fa-ellipsis-v"></i></span>
-            </div>
-          </li></a>
-          <li class="playlist__content">
-            <div class="playlist__column">
-              <img src="./img/goodforyou.jpg"/>
-              <div class="playlist__text">
-                <h6 class="playlist__musician">Aminé</h6>
-                <h5 class="playlist__song">Spice Girl</h5>
-              </div>
-            </div>
-            <div class="playlist__column">
-              <span><i class="fas fa-ellipsis-v"></i></span>
+            <div class="library-list__column">
+            <i class="fas fa-angle-right"></i>
             </div>
           </li>
-          <li class="playlist__content">
-            <div class="playlist__column">
-              <img src="./img/REDMERCEDES.jpg"/>
-              <div class="playlist__text">
-                <h6 class="playlist__musician">Aminé</h6>
-                <h5 class="playlist__song">REDMERCEDES</h5>
-              </div>
+          <li class="library-list">
+            <div class="library-list__column">
+              <i class="fas fa-history"></i>
+              <h6>recently</h6>
             </div>
-            <div class="playlist__column">
-              <span><i class="fas fa-ellipsis-v"></i></span>
+            <div class="library-list__column">
+            <i class="fas fa-angle-right"></i>
             </div>
           </li>
-          <li class="playlist__content">
-            <div class="playlist__column">
-              <img src="./img/goodforyou.jpg"/>
-              <div class="playlist__text">
-                <h6 class="playlist__musician">Aminé</h6>
-                <h5 class="playlist__song">Heebiejeebies</h5>
-              </div>
-            </div>
-            <div class="playlist__column">
-              <span><i class="fas fa-ellipsis-v"></i></span>
-            </div>
-          </li>
-          
         </ul>
+        <h6 class="lib-title">Playlist</h6>
+        <div class="lib-playist">
+          <a href="musician.html">
+            <div class="lib-playlist__list">
+              <img src="img/goodforyou.jpg">
+              <h5>Aminé</h5>
+              <h6>+ 7 songs</h6>
+            </div>
+          </a>  
+          <a href="#">
+            <div class="lib-playlist__list">
+              <img src="img/today1.JPG">
+              <h5>SLEEP MUSIC</h5>
+              <h6>+ 36 songs</h6>
+            </div>
+          </a> 
+          <a href="#">
+            <div class="lib-playlist__list">
+              <img src="img/chart3.JPG">
+              <h5>Billbord 100</h5>
+              <h6>+ 88 songs</h6>
+            </div>
+          </a> 
+          <a href="#">
+              <div class="lib-playlist__list">
+                <img src="img/today2.JPG">
+                <h5>2021 fav music</h5>
+                <h6>+ 21 songs</h6>
+              </div>
+          </a>
+          <div class="lib-playlist__list">
+            <img src="img/1851944.jpg">
+            <h5>Hip-Hap</h5>
+            <h6>+ 21 songs</h6>
+          </div>
+        </div>
       </main>
       <div class="bottom-bar">
         <div class="bottom-bar__column">
-          <div class="bottom-bar__text">
-            <h6 class="bottom-bar__musician">Aminé</h6>
-            <h5 class="bottom-bar__song">Caroline</h5>
-          </div>
+          <a href="music-play.html">
+            <div class="bottom-bar__text">
+              <h6 class="bottom-bar__musician">Aminé</h6>
+              <h5 class="bottom-bar__song">Caroline</h5>
+            </div>
+          </a>
         </div>
         <div class="bottom-bar__column">
           <span><i class="fas fa-step-backward"></i></span>

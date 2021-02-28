@@ -9,8 +9,11 @@
 /* screens */
 @import "screens/home.css";
 @import "screens/browse.css";
+@import "screens/library.css";
+@import "screens/user.css";
 @import "screens/musician.css";
 @import "screens/music-play.css";
+
 
 
 @import "variable.css";

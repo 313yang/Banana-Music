@@ -1,0 +1,25 @@
+.user {
+    justify-content: space-between;
+    width: 80%;
+    border-bottom: 1px solid var(--yellow);
+    padding: 15px 0;
+}
+.user,
+.user__column:first-child {
+    display: flex;
+    align-items: center;
+}
+.user__column i {
+    margin-right: 10px;
+}
+.fa-chevron-right:hover{
+    color: var(--yellow);
+}
+.user__column h5 {
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.user__column h6 {
+    font-size: 12px;
+    opacity: .8;
+}
