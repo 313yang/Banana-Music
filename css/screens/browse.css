@@ -1,8 +1,13 @@
+.browse__link {
+    display: flex;
+    width: 85%;
+
+}
 .browse-title{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 100%;
     margin: 30px 0;
 }
 .chart{
@@ -16,14 +21,14 @@
 .browse-title i {
     transition: all 0.2s ease;
 }
-.browse-title :active {
+.browse__link :hover {
     color: var(--yellow);
 }
 .genre-boxs {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 80%;
+    width: 85%;
 
 }
 .genre__box {

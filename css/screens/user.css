@@ -1,25 +1,53 @@
-.user {
+.user-top {
     justify-content: space-between;
-    width: 80%;
-    border-bottom: 1px solid var(--yellow);
-    padding: 15px 0;
+    width: 85%;
+    margin: 10px 0 30px;
 }
-.user,
-.user__column:first-child {
+.user-top,
+.user-top__column:first-child {
     display: flex;
     align-items: center;
 }
-.user__column i {
+.user-top__column i {
     margin-right: 10px;
+    opacity: .7;
+}
+.fa-chevron-right {
+    transition: color .2s ease-in-out;
 }
 .fa-chevron-right:hover{
     color: var(--yellow);
 }
-.user__column h5 {
+.user-top__column h5 {
     font-weight: 600;
     margin-bottom: 2px;
 }
-.user__column h6 {
+.user-top__column h6 {
     font-size: 12px;
     opacity: .8;
+}
+.user-account,
+.user-setting,
+.user-others {
+    width: 85%;
+}
+.user__title {
+    border-top: 1px solid var(--yellow);
+    padding: 30px 0;
+    margin-bottom: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: .5;
+}
+.user__list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: 00;
+    font-size: 16px;
+    opacity: .8;
+}
+.user__list-column span {
+    margin-left: 10px;
 }

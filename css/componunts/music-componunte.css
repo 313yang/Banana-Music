@@ -1,5 +1,5 @@
 .playlist {
-  width: 85%;
+  width: 90%;
   padding: 5px;
   border-radius: 10px;
   overflow: scroll;
@@ -44,14 +44,9 @@
   .playlist__column:first-child {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 85%;
   }
-  .playlist__column:last-child {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-
-   }
+  
   .playlist__column img {
     margin-right: 10px;
     width: 60px;
@@ -68,4 +63,20 @@
 a > .playlist__content .fa-ellipsis-v:hover {
   color: var(--main-black);
   opacity: .8;
+}
+.playlist__text {
+  margin-right: 10px;
+
+}
+.playlist__rank{
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.up {
+  color: var(--yellow);
+  font-size: 6px;
+}
+.down {
+  opacity: .6;
 }

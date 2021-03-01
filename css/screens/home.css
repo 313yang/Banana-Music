@@ -93,10 +93,13 @@
     padding: 3px 0;
     overflow-x: scroll;
 }
-
-[class*=content] {
+.new-releases__content,
+.mood-playlist__content,
+.focus-playlist__content {
     margin-right: 15px;
 }
+
+
 .new-releases__title,
 [class*=playlist__title] {
     display: flex;
