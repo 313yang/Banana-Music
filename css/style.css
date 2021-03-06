@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 /* components */
-@import "componunts/music-componunte.css";
-@import "componunts/nav.css";
-@import "componunts/play-bar.css";
-@import "componunts/top-bar.css";
-@import "componunts/playlist-btn.css";
+@import "components/music-componunte.css";
+@import "components/nav.css";
+@import "components/play-bar.css";
+@import "components/top-bar.css";
+@import "components/playlist-btn.css";
+@import "components/lib-playlist.css";
 
 /* screens */
 @import "screens/home.css";
@@ -15,7 +16,6 @@
 @import "screens/musician.css";
 @import "screens/music-play.css";
 @import "screens/chart.css";
-
 
 
 @import "variable.css";
@@ -85,4 +85,3 @@
   input {
     outline: none;
   }
-
