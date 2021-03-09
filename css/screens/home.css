@@ -38,7 +38,7 @@
     margin-bottom: 10px;
 }
 .today-music__playlist:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
@@ -138,4 +138,25 @@
 .fa-ellipsis-v {
     opacity: .8;
 
+}
+@keyframes hidesplashscreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen {
+    background-color: var(--yellow);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    animation: hidesplashscreen 0.5s ease-in-out forwards;
+    animation-delay: .8s;
 }
