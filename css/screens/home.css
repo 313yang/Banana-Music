@@ -1,6 +1,3 @@
-.bg-gradient {
-    background: linear-gradient(#ffc404 5% , #ffffff 40%) ;
-  }
 .today-music {
     margin-top: 60px;
     display: flex;
@@ -41,7 +38,7 @@
     margin-bottom: 10px;
 }
 .today-music__playlist:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
@@ -80,6 +77,12 @@
 .mood-playlist__column,
 .focus-playlist__column {
     font-size: 13px;
+    transition: all 0.2s ease;
+}
+.new-releases__column:hover,
+.mood-playlist__column:hover,
+.focus-playlist__column:hover {
+    color: var(--yellow);
 }
 
 .new-releases__list,
@@ -134,10 +137,6 @@
 
 .fa-ellipsis-v {
     opacity: .8;
-    transition: all 0.2s ease;
 
 }
-.fa-ellipsis-v:hover {
-    color: var(--yellow);
-    opacity: 1;
-  }
+

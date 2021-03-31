@@ -6,6 +6,10 @@
 @import "components/play-bar.css";
 @import "components/top-bar.css";
 @import "components/playlist-btn.css";
+<<<<<<< HEAD
+=======
+@import "components/lib-playlist.css";
+>>>>>>> db14fc068dc7dd6fc7808c2cbea24529f6874114
 
 /* screens */
 @import "screens/home.css";
@@ -15,7 +19,7 @@
 @import "screens/musician.css";
 @import "screens/music-play.css";
 @import "screens/chart.css";
-
+@import "screens/login.css";
 
 
 @import "variable.css";
@@ -85,4 +89,3 @@
   input {
     outline: none;
   }
-
