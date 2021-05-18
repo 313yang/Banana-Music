@@ -6,6 +6,7 @@
 @import "components/play-bar.css";
 @import "components/top-bar.css";
 @import "components/playlist-btn.css";
+@import "components/lib-playlist.css";
 
 /* screens */
 @import "screens/home.css";
