@@ -41,6 +41,8 @@ body {
 }
 
 .screen {
+  position: relative;
+  top: 0;
   width: 400px;
   height: 800px;
   border-radius: 20px;
