@@ -1,27 +1,22 @@
 .top-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 20px 10px;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-  }
-  .top-bar span{
-    font-weight: 700;
-    font-size: 18px;
-  }
-   .browse-bg{
-    background-color: rgba(255, 255, 255, .98);
-    margin-bottom: 20px;
-  }
-  .top-bar i {
-    transition: color 0.2s ease-in-out;
-    cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.98);
+  margin-bottom: 20px;
+  padding: 30px 20px 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.top-bar span {
+  font-weight: 700;
+  font-size: 18px;
+}
 
-  }
-  .top-bar i:hover {
-    color: var(--yellow);
+.top-bar i {
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .top-bar h6 {
@@ -29,24 +24,19 @@
   font-weight: 800;
 }
 
-
 .wrapper {
   display: flex;
   align-items: center;
 }
 
 .wrapper .fa-search,
- #toggle-search {
+#toggle-search {
   transition: all 0.3s ease;
-}
-.wrapper .fa-search:hover,
- #toggle-search:hover {
-  color: var(--yellow);
 }
 
 .wrapper #searchBar {
   border: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   border-bottom: 1px solid var(--yellow);
   font-size: 10pt;
   font-weight: 600;
@@ -58,5 +48,5 @@
 }
 #color-white:hover {
   color: white;
-  transition: color .2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }

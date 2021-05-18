@@ -1,73 +1,68 @@
 .browse__link {
-    display: flex;
-    width: 85%;
-
+  display: flex;
+  width: 85%;
 }
-.browse-title{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: 30px 0;
+.browse-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 30px 0;
 }
-.chart{
-    margin-top: 10px;
+.chart {
+  margin-top: 10px;
 }
-.browse-title h4{
-    font-size: 20px;
-    font-weight: 800;
-    transition: all 0.2s ease;
+.browse-title h4 {
+  font-size: 20px;
+  font-weight: 800;
+  transition: all 0.2s ease;
 }
 .browse-title i {
-    transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
-.browse__link :hover {
-    color: var(--yellow);
-}
-.genre-boxs {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 85%;
 
+.genre-boxs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 85%;
 }
 .genre__box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 80px;
-    background-color: #f19922;
-    color: white;
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    cursor: pointer;
-    transition: all .2s ease;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 80px;
+  background-color: #f19922;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 .genre__box:nth-child(2) {
-    background-color: #e45931;
+  background-color: #e45931;
 }
 .genre__box:nth-child(3) {
-    background-color: #4b907d;
+  background-color: #4b907d;
 }
 .genre__box:nth-child(4) {
-    background-color: #9fc1d0;
+  background-color: #9fc1d0;
 }
 .genre__box:nth-child(5) {
-    background-color: #e91e32;
+  background-color: #e91e32;
 }
 .genre__box:nth-child(6) {
-    background-color: #8c63ac;
+  background-color: #8c63ac;
 }
 .genre__box:nth-child(7) {
-    background-color: #3f00ec;
+  background-color: #3f00ec;
 }
 .genre__box:last-child {
-    background-color: #ee37a4;
+  background-color: #ee37a4;
 }
 .genre__box:hover {
-    transform: scale(1.03);
+  transform: scale(1.03);
 }

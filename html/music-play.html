@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Banana Music - Music play</title>
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico?" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="screen mp">
+      <div class="top-bar" style="background-color: transparent">
+        <a href="javascript:history.back();"
+          ><span><i id="color-white" class="fas fa-arrow-left"></i></span
+        ></a>
+        <span><i id="color-white" class="fas fa-ellipsis-v"></i></span>
+      </div>
+      <main class="main-screen">
+        <div class="main-play">
+          <img src="../img/goodforyou.jpg" />
+          <h2 class="song">Caroline</h2>
+          <h6 class="musician">Aminé</h6>
+          <input type="range" value="0" />
+          <div class="song-time">
+            <div class="song-time__column">
+              <span>1:23</span>
+            </div>
+            <div class="song-time__column">
+              <span>3:29</span>
+            </div>
+          </div>
+          <div class="music-btns">
+            <span class="music-btns__icon"
+              ><i class="fas fa-redo-alt"></i
+            ></span>
+            <span class="music-btns__icon"
+              ><i class="fas fa-step-backward fa-lg"></i
+            ></span>
+            <span class="music-btns__icon"
+              ><i class="fas fa-play fa-lg"></i
+            ></span>
+            <span class="music-btns__icon"
+              ><i class="fas fa-step-forward fa-lg"></i
+            ></span>
+            <span class="music-btns__icon"><i class="fas fa-random"></i></span>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="/js/rangebar.js"></script>
+  </body>
+</html>

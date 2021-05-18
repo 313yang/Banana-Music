@@ -1,15 +1,7 @@
-
 const play = document.querySelector(".fa-pause");
 
+const handleCilck = () => {
+  play.classList.toggle("fa-play");
+};
 
-const CLICKED_CLASS = "fa-play";
-
-function handleCilck() {
-  play.classList.toggle(CLICKED_CLASS);
-}
-
-function init() {
-  play.addEventListener("click", handleCilck);
-}
-
-init();
+play.addEventListener("click", handleCilck);
